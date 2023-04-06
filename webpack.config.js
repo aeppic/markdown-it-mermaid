@@ -10,7 +10,7 @@ const config = {
   externals: [nodeExternals()],
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "[name].js",
+    filename: "[name].cjs",
     libraryTarget: "commonjs2",
   },
   module: {
